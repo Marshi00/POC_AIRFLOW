@@ -1,0 +1,26 @@
+[2023-08-28T14:44:51.598+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-08-25T00:00:00+00:00 [queued]>
+[2023-08-28T14:44:51.607+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: user_processing.extract_user scheduled__2023-08-25T00:00:00+00:00 [queued]>
+[2023-08-28T14:44:51.607+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T14:44:51.608+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-08-28T14:44:51.608+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-08-28T14:44:51.624+0000] {taskinstance.py:1383} INFO - Executing <Task(SimpleHttpOperator): extract_user> on 2023-08-25 00:00:00+00:00
+[2023-08-28T14:44:51.629+0000] {standard_task_runner.py:55} INFO - Started process 90 to run task
+[2023-08-28T14:44:51.632+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'user_processing', 'extract_user', 'scheduled__2023-08-25T00:00:00+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/user_processing.py', '--cfg-path', '/tmp/tmphd5sweuk']
+[2023-08-28T14:44:51.634+0000] {standard_task_runner.py:83} INFO - Job 60: Subtask extract_user
+[2023-08-28T14:44:51.695+0000] {task_command.py:376} INFO - Running <TaskInstance: user_processing.extract_user scheduled__2023-08-25T00:00:00+00:00 [running]> on host 22e2fb7a3f74
+[2023-08-28T14:44:51.758+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=user_processing
+AIRFLOW_CTX_TASK_ID=extract_user
+AIRFLOW_CTX_EXECUTION_DATE=2023-08-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-08-25T00:00:00+00:00
+[2023-08-28T14:44:51.760+0000] {http.py:121} INFO - Calling HTTP method
+[2023-08-28T14:44:51.769+0000] {base.py:71} INFO - Using connection ID 'user_api' for task execution.
+[2023-08-28T14:44:51.771+0000] {http.py:148} INFO - Sending 'GET' to url: https://randomuser.me/api/
+[2023-08-28T14:44:53.261+0000] {http.py:125} INFO - {"results":[{"gender":"female","name":{"title":"Miss","first":"Leonora","last":"Brunes"},"location":{"street":{"number":5582,"name":"August Cappelens gate"},"city":"Brusand","state":"Aust-Agder","country":"Norway","postcode":"3101","coordinates":{"latitude":"43.6964","longitude":"71.6805"},"timezone":{"offset":"-7:00","description":"Mountain Time (US & Canada)"}},"email":"leonora.brunes@example.com","login":{"uuid":"81428011-b231-464f-8d47-937eca0084d5","username":"lazylion270","password":"cowgirl","salt":"kphyp8sY","md5":"2b8dc03a0aba417323e1c142e2bbd0dd","sha1":"fbadd84ad67d27ed89dd83f4c3eda4ec576b194e","sha256":"521c855548c2e015f8458821f65808a66842b57ae74bbe5bb84ae71c877c04a2"},"dob":{"date":"1972-11-07T13:55:50.408Z","age":50},"registered":{"date":"2020-11-17T18:10:25.538Z","age":2},"phone":"60053832","cell":"91241687","id":{"name":"FN","value":"07117249667"},"picture":{"large":"https://randomuser.me/api/portraits/women/76.jpg","medium":"https://randomuser.me/api/portraits/med/women/76.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/76.jpg"},"nat":"NO"}],"info":{"seed":"cd3fa9af3452f286","results":1,"page":1,"version":"1.4"}}
+[2023-08-28T14:44:53.282+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=user_processing, task_id=extract_user, execution_date=20230825T000000, start_date=20230828T144451, end_date=20230828T144453
+[2023-08-28T14:44:53.329+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2023-08-28T14:44:53.349+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
