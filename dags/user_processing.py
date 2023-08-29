@@ -24,9 +24,10 @@ def _process_user(ti):
 def _store_user():
     hook = PostgresHook(postgres_conn_id = 'postgres')
     hook.copy_expert(
-        sql = " COPY users FROM stdin WITH DELIMITER as ',' "
+        sql = " COPY users FROM stdin WITH DELIMITER as ',' ",
         filename = '/tmp/processed_user.csv'
-    )
+        )
+                                                        
 
 
 
@@ -73,6 +74,7 @@ with DAG('user_processing', start_date = datetime(2023, 8, 23),
 
     )
 
-    extract_user >> process_user
+    create_table >> is_api_available >> extract_user >> process_user >> store_user
+    
          
      
