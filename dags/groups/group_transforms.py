@@ -1,6 +1,6 @@
 from airflow import DAG
 from airflow.operators.bash import BashOperator
-from airflow.utils.task.group import TaskGroup
+from airflow.utils.task_group import TaskGroup
 
 def transform_tasks():
     with TaskGroup("transforms", tooltip = "Transform Tasks") as group:

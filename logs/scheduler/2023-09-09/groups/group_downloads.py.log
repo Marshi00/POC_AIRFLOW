@@ -1,0 +1,157 @@
+[2023-09-09T02:37:25.841+0000] {processor.py:154} INFO - Started process (PID=48) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:25.842+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:37:25.843+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:37:25.842+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:25.860+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:37:25.857+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:37:25.862+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:25.881+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.042 seconds
+[2023-09-09T02:37:55.963+0000] {processor.py:154} INFO - Started process (PID=122) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:55.964+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:37:55.965+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:37:55.965+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:55.984+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:37:55.981+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:37:55.985+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:37:56.004+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.043 seconds
+[2023-09-09T02:38:26.142+0000] {processor.py:154} INFO - Started process (PID=197) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:26.143+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:38:26.144+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:38:26.144+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:26.161+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:38:26.157+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:38:26.163+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:26.182+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.042 seconds
+[2023-09-09T02:38:56.603+0000] {processor.py:154} INFO - Started process (PID=262) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:56.603+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:38:56.604+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:38:56.604+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:56.622+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:38:56.618+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:38:56.623+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:38:56.641+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.041 seconds
+[2023-09-09T02:39:27.427+0000] {processor.py:154} INFO - Started process (PID=336) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:27.428+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:39:27.429+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:39:27.429+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:27.451+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:39:27.447+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:39:27.452+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:27.470+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.046 seconds
+[2023-09-09T02:39:57.758+0000] {processor.py:154} INFO - Started process (PID=410) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:57.759+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:39:57.760+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:39:57.760+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:57.774+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:39:57.772+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:39:57.776+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:39:57.795+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.039 seconds
+[2023-09-09T02:40:27.911+0000] {processor.py:154} INFO - Started process (PID=484) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:27.912+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:40:27.913+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:40:27.912+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:27.933+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:40:27.928+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:40:27.935+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:27.954+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.045 seconds
+[2023-09-09T02:40:58.194+0000] {processor.py:154} INFO - Started process (PID=549) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:58.195+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:40:58.196+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:40:58.196+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:58.217+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:40:58.213+0000] {dagbag.py:342} ERROR - Failed to import: /opt/airflow/dags/groups/group_downloads.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 338, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/groups/group_downloads.py", line 3, in <module>
+    from airflow.utils.task.group import TaskGroup
+ModuleNotFoundError: No module named 'airflow.utils.task'
+[2023-09-09T02:40:58.219+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:40:58.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.049 seconds
+[2023-09-09T02:41:20.894+0000] {processor.py:154} INFO - Started process (PID=613) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:20.895+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:41:20.896+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:41:20.895+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:20.922+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:20.938+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.046 seconds
+[2023-09-09T02:41:51.545+0000] {processor.py:154} INFO - Started process (PID=696) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:51.546+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:41:51.547+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:41:51.547+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:51.561+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:41:51.571+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.029 seconds
+[2023-09-09T02:42:22.025+0000] {processor.py:154} INFO - Started process (PID=770) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:22.026+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:42:22.026+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:42:22.026+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:22.040+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:22.050+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.028 seconds
+[2023-09-09T02:42:52.476+0000] {processor.py:154} INFO - Started process (PID=852) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:52.477+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:42:52.478+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:42:52.478+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:52.493+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:42:52.504+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.030 seconds
+[2023-09-09T02:43:23.025+0000] {processor.py:154} INFO - Started process (PID=917) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:23.026+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:43:23.027+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:43:23.027+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:23.043+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:23.056+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.034 seconds
+[2023-09-09T02:43:53.098+0000] {processor.py:154} INFO - Started process (PID=992) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:53.099+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:43:53.100+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:43:53.099+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:53.120+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:43:53.132+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.037 seconds
+[2023-09-09T02:44:23.267+0000] {processor.py:154} INFO - Started process (PID=1067) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:23.267+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:44:23.268+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:44:23.268+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:23.282+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:23.293+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.029 seconds
+[2023-09-09T02:44:53.585+0000] {processor.py:154} INFO - Started process (PID=1140) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:53.586+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:44:53.587+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:44:53.587+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:53.601+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:44:53.612+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.030 seconds
+[2023-09-09T02:45:23.953+0000] {processor.py:154} INFO - Started process (PID=1205) to work on /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:45:23.954+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/groups/group_downloads.py for tasks to queue
+[2023-09-09T02:45:23.955+0000] {logging_mixin.py:120} INFO - [2023-09-09T02:45:23.955+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:45:23.969+0000] {processor.py:768} WARNING - No viable dags retrieved from /opt/airflow/dags/groups/group_downloads.py
+[2023-09-09T02:45:23.979+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/groups/group_downloads.py took 0.028 seconds
