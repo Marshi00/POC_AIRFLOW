@@ -21,3 +21,6 @@ AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-09-05T00:00:00+00:00
   warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
 
 [2023-09-09T02:42:36.743+0000] {subdag.py:171} INFO - Created DagRun: scheduled__2023-09-05T00:00:00+00:00
+[2023-09-09T14:17:16.703+0000] {taskinstance.py:1159} INFO - Dependencies not met for <TaskInstance: group_dag.transforms scheduled__2023-09-05T00:00:00+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2023-09-09T14:17:16.704+0000] {taskinstance.py:1159} INFO - Dependencies not met for <TaskInstance: group_dag.transforms scheduled__2023-09-05T00:00:00+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2023-09-09T14:17:16.709+0000] {local_task_job.py:103} INFO - Task is not able to be run

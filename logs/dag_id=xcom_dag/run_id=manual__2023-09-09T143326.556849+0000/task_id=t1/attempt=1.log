@@ -1,0 +1,32 @@
+[2023-09-09T14:33:27.756+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: xcom_dag.t1 manual__2023-09-09T14:33:26.556849+00:00 [queued]>
+[2023-09-09T14:33:27.763+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: xcom_dag.t1 manual__2023-09-09T14:33:26.556849+00:00 [queued]>
+[2023-09-09T14:33:27.764+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-09T14:33:27.764+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 1
+[2023-09-09T14:33:27.765+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2023-09-09T14:33:27.776+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): t1> on 2023-09-09 14:33:26.556849+00:00
+[2023-09-09T14:33:27.780+0000] {standard_task_runner.py:55} INFO - Started process 872 to run task
+[2023-09-09T14:33:27.783+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'xcom_dag', 't1', 'manual__2023-09-09T14:33:26.556849+00:00', '--job-id', '191', '--raw', '--subdir', 'DAGS_FOLDER/xcom_dag.py', '--cfg-path', '/tmp/tmpx86zsnar']
+[2023-09-09T14:33:27.783+0000] {standard_task_runner.py:83} INFO - Job 191: Subtask t1
+[2023-09-09T14:33:27.831+0000] {task_command.py:376} INFO - Running <TaskInstance: xcom_dag.t1 manual__2023-09-09T14:33:26.556849+00:00 [running]> on host d0466a17bb90
+[2023-09-09T14:33:27.885+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=xcom_dag
+AIRFLOW_CTX_TASK_ID=t1
+AIRFLOW_CTX_EXECUTION_DATE=2023-09-09T14:33:26.556849+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-09-09T14:33:26.556849+00:00
+[2023-09-09T14:33:27.886+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/xcom_dag.py", line 8, in _t1
+    ti.xcom+push(key = 'custom_key', value = 42)
+AttributeError: 'TaskInstance' object has no attribute 'xcom'
+[2023-09-09T14:33:27.897+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=xcom_dag, task_id=t1, execution_date=20230909T143326, start_date=20230909T143327, end_date=20230909T143327
+[2023-09-09T14:33:27.908+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 191 for task t1 ('TaskInstance' object has no attribute 'xcom'; 872)
+[2023-09-09T14:33:27.914+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2023-09-09T14:33:27.938+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
