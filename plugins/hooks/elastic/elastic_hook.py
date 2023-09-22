@@ -1,7 +1,7 @@
 from airflow.plugins_manager import AirflowPlugin
 from airflow.hooks.base import BaseHook
 from elasticsearch import Elasticsearch
-### TODO: Check func later
+### TODO: Check func later + search
 class ElasticHook(BaseHook):
 
     def __init__(self, conn_id = 'elastic_default', *args, **kwargs):
